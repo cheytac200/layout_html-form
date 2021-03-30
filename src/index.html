@@ -99,14 +99,18 @@
             Do you love cats?
           <input
           type="radio"
-          name="radio_cats_yes"
+          name="radio_cats"
           id="cats_yes">
-          Yes
+          <label for="cats_yes">
+            Yes
+          </label>
           <input
           type="radio"
-          name="radio_cats_no"
+          name="radio_cats"
           id="cats_no">
-          No
+          <label for="cats_no">
+            No
+          </label>
         </div>
         <div class="form__field">
           <label for="color">
@@ -160,8 +164,8 @@
             Comments:
           </label>
           <textarea
-          name="tex_comments"
-          id="comments">
+            name="tex_comments"
+            id="comments">
           </textarea>
         </div>
         <div class="form__field">
@@ -176,11 +180,10 @@
           </select>
         </div>
       </fieldset>
-
       <button
-      type="submit"
-      id="button_submit">
-      Submit
+        type="submit"
+        id="button_submit">
+        Submit
       </button>
     </form>
     <script type="text/javascript" src="./main.js"></script>
