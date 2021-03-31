@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application">
+    <form
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      onsubmit="onSubmit()"
+    >
       <fieldset class="block__forms">
         <legend>
           Personal information
@@ -19,51 +22,50 @@
             Surname:
           </label>
           <input
-          type="text"
-          name="inp_surname"
-          id="surname">
+            type="text"
+            name="inp_surname"
+            id="surname">
         </div>
         <div class="form__field">
           <label for="name">
             Name:
           </label>
           <input
-          type="text"
-          name="inp_name"
-          id="name">
+            type="text"
+            name="inp_name"
+            id="name">
         </div>
         <div class="form__field">
           <label for="age">
             How old are You?
           </label>
           <input
-          type="number"
-          name="inp_age"
-          value="12"
-          min="1"
-          max="100"
-          id="age">
+            type="number"
+            name="inp_age"
+            value="12"
+            min="1"
+            max="100"
+            id="age">
         </div>
         <div class="form__field">
           <label for="date_of_birth">
             Full date of birth:
           </label>
           <input
-          type="date"
-          name="date_birth"
-          id="date_of_birth">
+            type="date"
+            name="date_birth"
+            id="date_of_birth">
         </div>
         <div class="form__field">
           <label for="terms">
             I accept the term of the agreement
           </label>
           <input
-          type="checkbox"
-          name="check_terms"
-          id="terms">
+            type="checkbox"
+            name="check_terms"
+            id="terms">
         </div>
       </fieldset>
-
 
       <fieldset class="block__forms">
         <legend>
@@ -74,22 +76,21 @@
             E-mail:
           </label>
           <input
-          type="email"
-          name="inp_email"
-          placeholder="email@example.com"
-          id="email">
+            type="email"
+            name="inp_email"
+            placeholder="email@example.com"
+            id="email">
         </div>
         <div class="form__field">
           <label for="password">
             Password:
           </label>
           <input
-          type="password"
-          name="inp_password"
-          id="password">
+            type="password"
+            name="inp_password"
+            id="password">
         </div>
       </fieldset>
-
 
       <fieldset class="block__forms">
         <legend>
@@ -98,16 +99,16 @@
         <div class="form__field">
             Do you love cats?
           <input
-          type="radio"
-          name="radio_cats"
-          id="cats_yes">
+            type="radio"
+            name="radio_cats"
+            id="cats_yes">
           <label for="cats_yes">
             Yes
           </label>
           <input
-          type="radio"
-          name="radio_cats"
-          id="cats_no">
+            type="radio"
+            name="radio_cats"
+            id="cats_no">
           <label for="cats_no">
             No
           </label>
@@ -117,26 +118,26 @@
             What is your favorite color?
           </label>
           <input
-          type="color"
-          name="inp_color"
-          id="color">
+            type="color"
+            name="inp_color"
+            id="color">
         </div>
         <div class="form__field">
           <label for="time_bed">
             What time do you go to bed?
           </label>
           <input
-          type="time"
-          name="inp_time"
-          id="time_bed">
+            type="time"
+            name="inp_time"
+            id="time_bed">
         </div>
         <div class="form__field" for="brands_cars">
             What are your favorite brand of cars?
           <select
-          class="brand__cars"
-          name="brand_of_cars"
-          multiple
-          id="brands_cars">
+            class="brand__cars"
+            name="brand_of_cars"
+            multiple
+            id="brands_cars">
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -147,13 +148,12 @@
             How do you rate our work?
           </label>
           <input
-          type="range"
-          name="inp_rate_work"
-          value="0"
-          id="rate_work">
+            type="range"
+            name="inp_rate_work"
+            value="0"
+            id="rate_work">
         </div>
       </fieldset>
-
 
       <fieldset class="block__forms">
         <legend>
