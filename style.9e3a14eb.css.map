@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,8BACE,kBACF,CAEA,cACE,kBACF,CAEA,aACE,eACF","file":"style.9e3a14eb.css","sourceRoot":"..\\src","sourcesContent":[".form__field:not(:last-child) {\n  margin-bottom: 10px;\n}\n\n.block__forms {\n  margin-bottom: 20px;\n}\n\n.brand__cars {\n  overflow: hidden;\n}\n"]}
